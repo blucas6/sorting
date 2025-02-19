@@ -1,0 +1,45 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+#flexbox-container{
+    display: flex;
+}
+#tables{
+    float: center;
+}
+#algo1{
+    border: solid thin black;
+    float: left;
+}
+#quick-sort{
+    border: solid thin black;
+    float: left;
+}
+#settings{
+    border: solid thin black;
+    float: left;
+    height: 200px;
+}
+#settings p{
+    padding: 5px;
+}
+#start, #step, #stop{
+    margin-top: 20px;
+    border: solid medium rgb(106, 103, 112);
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#start:hover, #step:hover, #stop:hover{
+    background-color: rgb(199, 239, 241);
+    cursor: pointer;
+}
+#gen1, #gen2{
+    float: right;
+}
